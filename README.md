@@ -52,7 +52,7 @@ Location can be a predictor of well status, typically as it relates to the Rural
 
 Full analysis: [Question 2 Notebook](/notebooks/question_2_seasonality.ipynb)
 
-![seasonality and rainfaill](/images/seasonality.png)
+![seasonality and rainfaill](/images/seasons.png)
 
 Pumps are more likely to be functional after wet season has been past. 
 
