@@ -6,11 +6,11 @@ November (Friday the) 13 , 2020
 
 ---
 
-# *Pump It Up! *
+# *Pump It Up!*
 
 *Data Mining the Water Table*
 
-![woman fills bucket at a water point](../images/woman_well.jpg)
+<img alt="woman fills bucket at a water point" src="/images/woman_well.jpg" width="800"/>
 
 ---
 
@@ -32,7 +32,7 @@ Repository Contents:
 
 ### Data
 
-Cleaning notebooks: Modeling data [cleaning](../notebooks/data_cleaning.ipynb) and validation set [transformation](../notebooks/validation_transformation.ipynb)
+Cleaning notebooks: Modeling data [cleaning](/notebooks/data_cleaning.ipynb) and validation set [transformation](../notebooks/validation_transformation.ipynb)
 
 This dataset is part of an *active competition* until April 31, 2021 from [DRIVEN DATA](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/). No outside data was permitted to be used.
 
@@ -42,17 +42,17 @@ validation_transformation.ipynb
 
 #### 1) What is the Waterpoint Geographical Distribution?
 
-Full analysis: [Question 1 Notebook](../notebooks/question_1_waterpoint_distribution.ipynb)
+Full analysis: [Question 1 Notebook](/notebooks/question_1_waterpoint_distribution.ipynb)
 
-![seperate mao](../images/sep_dist.png)
+![seperate mao](/images/sep_dist.png)
 
 Location can be a predictor of well status, typically as it relates to the Rural Access Index (RAI).
 
 #### 2) Does seasonality effect status (season of evaluation)?
 
-Full analysis: [Question 2 Notebook](../notebooks/question_2_seasonality.ipynb)
+Full analysis: [Question 2 Notebook](/notebooks/question_2_seasonality.ipynb)
 
-![seasonality and rainfaill](../images/seasonality.png)
+![seasonality and rainfaill](/images/seasonality.png)
 
 Pumps are more likely to be functional after wet season has been past. 
 
@@ -61,9 +61,9 @@ During the other times the reporting is much more equal.
 
 #### 3) Waterpoint management relationship to status?
 
-Full analysis: [Question 3 Notebook](../notebooks/question_3_management.ipynb)
+Full analysis: [Question 3 Notebook](/notebooks/question_3_management.ipynb)
 
-![management bar graph](../images/management.png)
+![management bar graph](/images/management.png)
 
 Wells managed by legal entities:
   
@@ -73,12 +73,14 @@ Wells managed by legal entities:
      
 have the greatest percentage of functional wells.
 
-![payment bar graph](../images/payment.png)
+![payment bar graph](/images/payment.png)
 
 Wells that require payment are more likely to be functional.
 
 
 ### Classifier
+
+Full analysis: [Modeling Notebook](/notebooks/modeling.ipynb)
 
 Accuracy was the set metric to optimize for by the competition. Accuracy makes sense as a metric for this application because it is a better gauge of whether the model is discerning the rare class than others. 
 
@@ -102,10 +104,11 @@ Important feature groups:
     - 'extraction_type' : 'other'
     - 'management_type'
     - 'region'
-    
-![score](../images/score.png)
 
-![confusion](../images/confusion.png)
+<img alt="submission score" src="/images/score.png" width="400"/>
+
+<img alt="confusion" src="/images/confusion.png" width="600"/>
+
     
 ---
 
@@ -126,7 +129,7 @@ Important feature groups:
 
 #### Thank you for viewing my project!
 
-Please review the full analysis in the [Notebooks](./notebooks) folder or view my presentation [slideshow](./Mod03_presentation.pdf) or [video]().
+Please review the full analysis in the [Notebooks](/notebooks) folder or view my presentation [slideshow](/Mod03_presentation.pdf) or [video]().
 
 
 
