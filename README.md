@@ -95,7 +95,7 @@ Competition performance: **77.97% accuracy** of predictions for the validation s
 
 Model fitness: The modeling test set scored **77.63%** accuracy. Only **0.34%** difference, indicating the model is fit well and not over trained. 
 
-Current limits: The model is having difficultly discerning 'functional' from the rare class 'functional needs repair'. Attempts to correct for class imbalance resulted in significant overfitting, with little gain in rare class predictions.
+Current limits: The model is having difficultly discerning 'functional' from the rare class 'functional, needs repair'. Attempts to correct for class imbalance resulted in significant overfitting, with little gain in rare class predictions.
 
 Important feature groups:
 
